@@ -14,7 +14,7 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,700;1,500&display=swap');
 *{
     border:0;
     font:inherit;
@@ -42,7 +42,7 @@ a.current{color: #52739e;}
 a.current:hover{color: #e82945;}
 a:hover{color: #b2132e;}
 a:active{color: #e82945;}
-h1,h2,h3,h4{clear:left; color: #813c54; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
+h1,h2,h3,h4{clear:left; color: #0078ae; margin:1.5em 0em 1em 0em; font-family:'Source Sans 3',sans-serif; text-shadow: 1px 1px 2px #d0d0d0;}
 h1{font-size:2.67em;}
 h2{font-size:2.00em;}
 h3{font-size:1.67em;}
@@ -77,7 +77,7 @@ th,td{
 }
 
 /* Website Banner */
-.banner {position: relative; font-family:'Roboto Slab',serif;}
+.banner {position: relative; font-family:'Source Sans 3',sans-serif;}
 .top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
 .bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
 
@@ -98,10 +98,10 @@ td.sponsor img{width: 100%}
 /* The Table on the Program Page */
 /* Navigation Table */
 table.navigation{width:100%; border-collapse:collapse; background:#f0f0f0;}
-td.navigation{width:20%; padding:4px 8px; text-align:center; vertical-align:middle; font-family:'Roboto Slab', serif; font-size:1em;}
-td.navigation a{text-decoration:none; color:#52739e;  display:block; padding:4px 0; text-shadow:1px 1px 2px #d0d0d0;}
-td.navigation a.current{background:#52739e; color:#fff; border-radius:4px;}
-td.navigation a:hover{background:#813c54; color:#fff;}
+td.navigation{width:20%; padding:4px 8px; text-align:center; vertical-align:middle; font-family:'Source Sans 3', serif; font-size:1em;}
+td.navigation a{text-decoration:none; color:#0078ae;  display:block; padding:4px 0; text-shadow:1px 1px 2px #d0d0d0;}
+td.navigation a.current{background:#0078ae; color:#fff; border-radius:4px;}
+td.navigation a:hover{background:#2a2a2a; color:#fff;}
 
 
 /* Registration and Directions iframes and Images */
